@@ -1,0 +1,81 @@
+Anotações sobre scrum:
+
+Conceitos básicos:
+
+Cascata x Ágil.
+
+Cascata: tradicional, cada etapa só pode ser executada após a etapa anterior ter sido concluida.  Desnvolvimento rígido. Os requisitos não podem ser alterqados após conclusão da definição dos requisitos. Os projetos são controlados por fases e marcos. O Software só pode ser visto após conclusão de todas as etapas.
+
+Ágil: Software construido em partes, as partes são executadas em um ciclo iterativo. o Escopo do projeto é definido ao longo do projeto, podendo ocorrer alterações durante do desenvolvimento. O projeto é controlado por funcionalidades entregues. O CLiente pode ver o software funcionando já a partir da primeira entrega.
+
+Ágil: Rapidez em responder a mudanças e desembaraços, fazer coisas complexas de forma simples, equipe comprometida com os objetivos, geração de valor para o cliente.
+
+Scrum: framework de gerenciamento de desenvolvimento ágil. Equipes pequenas e multidisciplinares.
+
+Pilares: Transparência , Adaptação e inspeção.
+
+Conversar mais e escrever menos.
+
+Demonstrar o software constantemente ao usuários e obter feedback. requisitos mudam ao longo do tempo, aprender com o uso do software.
+
+Partes entregues entre 2 a 4 semanas, gerenciamento de risco através do feedbacks e organização do backlog. usuparios envolvidos durante todo o cuclo do desenvolvimento. Aplicação das lições aprendidas(melhoria contínua)
+
+caracterísiticas do time:
+
+Equipes são capazes de auto-organizarem, as taferas são do time e todos são responsáveis, forte comprometimento com os resultados.
+
+
+----
+
+Papéis e responsabilidade de cada time:
+
+Product owner: Representa a área de negócios, define as funcionalidades do software(product backlog), prioriza as funcionalidades de acordo com o valor do negócio. Responsável por garantir o entendimento do time de desenvolvimento sobre os itens do backlog.
+
+Scrum Master: Garantir o uso correto do scrum, não é gerente de projetos, facilitador, auxilia o P.O no planejamento e estimativas do backlog, auxilia equipe dev a remover impedimentos, treina o time em autogerenciamento e interdiscipliniaridade.
+
+Time de Desenvolvimento: Entre 3 a 9 pessoas no time. Testar, criar, desenhar o software.
+
+----
+
+Cerimonias do Scrum:
+
+Time box - tempo máximo definido para fazer uma cerimônia ou sprint.
+
+Sprint - é o principal evento scrum, ocorre no máximo em 30 dias corridos, quem define o tempo é o P.O
+
+Uma print possui o Planejamento da Sprint, Reuniões Diárias(Daily Meeting), Revisão da Sprint(Review), Retrospectiva da sprint
+
+Planejamento da Sprint - Onde ocorre a construção do product backlog, P.O SC e des participam , geralmente possui uma time box de 8 hrs. primeiras 4 hrs é o que fazer, o P.O prioriza o backlog e explica aos devs o que deve ser entregue; nas 4 hrs restantes a equipe de dev discute entre si como fazer as atividades priorizadas pelo P.O.
+
+No como fazer, a quipe de dev estima o tempo que cada atividade vai levar para ser feito, geralmente utilizar o planning poker .
+
+Reuniões diárias - time box de 15 minutos, todos participam, a equipe de dev responde o que fez, oq ue tá programado para o dia e o impedimento, deve ser feita em pé, no mesmo local e horário definidos.
+
+Revisão da sprint - os devs apresentam ao P.O o trabalho realizado durante a sprint, tem um time box de 4 hrs. O feedback do p>o deve ser aplicado na próxima sprint, nesta cerimonia, o P.O vai definir se a sprint entrará ou não em produção.
+
+Retrospectiva da Sprint - equipe dev realiza reunião para revisar o que foi positivo e negativo durante a sprint para que os pontos negativos possam ser melhorados, time box de 3 hrs.
+
+
+---------
+
+Estória do usuário
+
+Nome da Estória
+Descrição da Estória(Eu, como , quero, quando)
+Regras de negócio (Separar Regras de Front-End de regras de Back-End)
+Tela(Link ou imagem das telas a serem desenvolvidas)
+KPI(Quais os objetivos/valor a estória precisa atingir)
+Tagueamento(Como a estória será "Tagueada" para poder mensurar o KPI)
+Critério de Aceite(Qual passo a passo de todos os caminhos Felizes possíveis a estória deve cumprir para que ela seja considerada aceita)
+
+---------
+
+Estória vs Tarefas
+
+Projeto é um conjunto de épicos.
+
+Épicos são partes concretas de um projeto.
+
+Estórias são partes dos épicos e conjuntos de tarefas
+
+Tarefas são as realizações das estórias. 

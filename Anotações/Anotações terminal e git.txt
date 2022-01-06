@@ -1,0 +1,56 @@
+dir - lista de diretórios da pasta que estamos situados
+cd - serve para navegar entre as pastas
+cd .. - serve para voltar uma pasta da navegação
+cls - limpar tela cmd
+mkdir - criar uma pasta
+echo - printa o que for inscrito após o echo. 
+echo [texto] > [nomeArquivo].txt - criar/ou escreve um arquivo o o texto após o comando echo
+del - apaga arquivos dentro da pasta selecionada
+rmdir [nomeDiretorio] /s /q - apaga todos os arquivos e diretório selecionado
+ls - mostra os arquivos de uma pasta 
+ls -a - mostra os arquivos ocultos de uma pasta
+
+
+Comandos básicos do git: 
+
+git init - inicializar um repositório
+git add - adicionar alterações no repositório 
+git commit - commitar as atualizações no repositório. 
+git config --global user.email - define o email que o git vai estar relacionado
+git config --global user.name - define o username que o git vai estar relacionado
+git add restore --stage "nome do arquivo" - restaura as modificações para antes do comando add. 
+git push origin master - atualiza o repositório online com as últimas atualizações realizadas no repositório local
+git pull origin master - atualiza o repositório com as últimas atualizações realizadas no github
+
+
+Para linkar um respositório local a um respositório no github: 
+
+git remote add origin git@github.com:arthurpiratas/livro-receitas.git
+git push origin master
+
+resolver conflitos:
+
+
+------------
+
+Teoria git
+
+Sha1 - algorítimo de criptografia usado no git , usado para catalogar os commits realizado no git, o algorítimo gera uma chave de 40 dígitos que é utilizada com referência ao commit. 
+
+Objetos fundamentais: 
+
+Blobs: contem informações básicas de um arquivo, como tamanho, conteúdo e etcs
+
+Trees: Armazena conjuntos de blobs
+
+Commits: armazena trees, e possui informações de autores, mensagem, ponteiros
+
+sistema distribuidos 
+
+Segurança
+
+------------
+
+Chave SSH e Token
+
+Chave SSH criptografia com chave pública e privada. 
